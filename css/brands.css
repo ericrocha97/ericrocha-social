@@ -83,7 +83,7 @@ button:hover,
   background-color: #7289DA }
 .button.button-discord:hover,
 .button.button-discord:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Facebook */
 .button.button-facebook {
@@ -91,7 +91,7 @@ button:hover,
   background-color: #1877f2 }
 .button.button-facebook:hover,
 .button.button-facebook:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Facebook Messenger */
 .button.button-messenger {
@@ -99,7 +99,7 @@ button:hover,
   background-image: linear-gradient(25deg,#0099FF, #5F5DFF,#A033FF, #C740CC, #FF5280, #FF7061) }
 .button.button-messenger:hover,
 .button.button-messenger:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Figma */
 .button.button-figma {
@@ -107,7 +107,7 @@ button:hover,
   background-color: #000000 }
 .button.button-figma:hover,
 .button.button-figma:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Github */
 .button.button-github {
@@ -115,7 +115,7 @@ button:hover,
   background-color: #000000 }
 .button.button-github:hover,
 .button.button-github:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Goodreads */
 .button.button-goodreads {
@@ -123,7 +123,7 @@ button:hover,
   background-color: #F3F1E6 }
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Instagram */
 .button.button-instagram {
@@ -131,7 +131,7 @@ button:hover,
   background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000) }
 .button.button-instagram:hover,
 .button.button-instagram:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Kit */
 .button.button-kit {
@@ -139,7 +139,7 @@ button:hover,
   background-color: #000000 }
 .button.button-kit:hover,
 .button.button-kit:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* LinkedIn */
 .button.button-linkedin {
@@ -147,7 +147,7 @@ button:hover,
   background-color: #2867B2 }
 .button.button-linkedin:hover,
 .button.button-linkedin:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Medium */
 .button.button-medium {
@@ -155,7 +155,15 @@ button:hover,
   background-color: #000000 }
 .button.button-medium:hover,
 .button.button-medium:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
+
+  /* Email */
+.button.button-email {
+  color: #FFFFFF;
+  background-color: #794BC4 }
+.button.button-email:hover,
+.button.button-email:focus {
+  filter: brightness(70%) }
 
 /* Pinterest */
 .button.button-pinterest {
@@ -163,7 +171,7 @@ button:hover,
   background-color: #FFE2EB }
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Reddit */
 .button.button-reddit {
@@ -171,7 +179,7 @@ button:hover,
   background-color: #D7DFE2 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Skoob */
 .button.button-skoob {
@@ -179,7 +187,7 @@ button:hover,
   background-color: #3189C8 }
 .button.button-skoob:hover,
 .button.button-skoob:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Snapchat */
 .button.button-snapchat {
@@ -187,7 +195,7 @@ button:hover,
   background-color: #fffc00 }
 .button.button-snapchat:hover,
 .button.button-snapchat:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* SoundCloud */
 .button.button-soundcloud {
@@ -195,7 +203,7 @@ button:hover,
   background-color: #ff5500 }
 .button.button-soundcloud:hover,
 .button.button-soundcloud:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Spotify */
 .button.button-spotify {
@@ -203,7 +211,7 @@ button:hover,
   background-color: #000000 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Steam */
 .button.button-steam {
@@ -211,7 +219,7 @@ button:hover,
   background-color: #171a21 }
 .button.button-steam:hover,
 .button.button-steam:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
   
 /* Telegram */
 .button.button-telegram {
@@ -219,7 +227,7 @@ button:hover,
   background-color: #3faee8 }
 .button.button-telegram:hover,
 .button.button-telegram:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Tumblr */
 .button.button-tumblr {
@@ -227,7 +235,7 @@ button:hover,
   background-color: #131313 }
 .button.button-tumblr:hover,
 .button.button-tumblr:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Twitch */
 .button.button-twitch {
@@ -235,7 +243,7 @@ button:hover,
   background-color: #9146ff }
 .button.button-twitch:hover,
 .button.button-twitch:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Twitter */
 .button.button-twitter {
@@ -243,7 +251,7 @@ button:hover,
   background-color: #1DA1F2 }
 .button.button-twitter:hover,
 .button.button-twitter:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Vimeo */
 .button.button-vimeo {
@@ -251,7 +259,7 @@ button:hover,
   background-color: #1ab7ea }
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* YouTube */
 .button.button-youtube {
@@ -259,7 +267,7 @@ button:hover,
   background-color:  #000000 }
 .button.button-youtube:hover,
 .button.button-youtube:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
 
 /* Wordpress */
 .button.button-wordpress {
@@ -267,4 +275,4 @@ button:hover,
   background-color: #21759b }
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
-  filter: brightness(90%) }
+  filter: brightness(70%) }
