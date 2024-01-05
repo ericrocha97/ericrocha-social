@@ -128,7 +128,7 @@
 
         <br>
         <br>
-        <p>Desenvolvido por Eric Rocha © 2021.</p>
+        <p id="current-year">Desenvolvido por Eric Rocha © 2021.</p>
 
       </div>
     </div>
@@ -136,6 +136,12 @@
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script>
+    var yearElement = document.getElementById('current-year');
+    var currentYear = new Date().getFullYear();
+    yearElement.innerText = 'Desenvolvido por Eric Rocha © ' + currentYear + '.';
+  </script>
 </body>
 
 </html>
