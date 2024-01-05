@@ -7,7 +7,7 @@ and [many.link](https://www.google.com). LittleLink was built using [Skeleton](h
 
 ![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
 
-LittleLink has more than 20 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. 
+LittleLink has more than 20 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing.
 
 ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 
