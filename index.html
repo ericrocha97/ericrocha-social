@@ -46,8 +46,10 @@
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="Eric Rocha.dev" />
+  <meta property="twitter:domain" content="ericrocha.dev" />
   <meta property="twitter:url" content="https://ericrocha.dev" />
+  <meta property="twitter:creator" content="@Eric__Rocha" />
+
   <meta name="twitter:title" content="Eric Rocha | Social" />
   <meta name="twitter:description" content="👋 Me chamo Eric Rocha." />
   <meta name="twitter:image" content="images/cover.png" />
@@ -141,12 +143,75 @@
     </div>
   </div>
 
+
   <script>
     var yearElement = document.getElementById('current-year');
     var currentYear = new Date().getFullYear();
     yearElement.innerText = 'Desenvolvido por Eric Rocha © ' + currentYear + '.';
   </script>
 
+
+  <!-- gerador de cover -->
+  <!--
+<canvas id="cover" width="600" height="315" style="display:none"></canvas>
+<button onclick="downloadCover()">Baixar Cover</button>
+<img id="preview" />
+
+<script>
+  async function drawCover() {
+    const canvas = document.getElementById('cover');
+    const ctx = canvas.getContext('2d');
+
+    // Fundo
+    ctx.fillStyle = "#191724";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Foto de perfil (circular centralizado)
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.src = "https://avatars.githubusercontent.com/u/44805101?s=400";
+    await img.decode();
+
+    // Centraliza a foto no canvas 600x315
+    const centerX = canvas.width / 2; // 300
+    const centerY = canvas.height / 2; // 157.5
+    const radius = 70;
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, radius, 0, Math.PI * 2, true);
+    ctx.closePath();
+    ctx.clip();
+    ctx.drawImage(img, centerX - radius, centerY - radius, radius * 2, radius * 2);
+    ctx.restore();
+
+    // Borda azul
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, radius + 5, 0, Math.PI * 2, true);
+    ctx.strokeStyle = "#31748f";
+    ctx.lineWidth = 5;
+    ctx.stroke();
+
+    // Nome centralizado abaixo da foto
+    ctx.font = "28px 'Fira Code', monospace";
+    ctx.fillStyle = "#fff";
+    ctx.textAlign = "center";
+    ctx.fillText("Eric Rocha", centerX, centerY + radius + 40);
+
+    // Preview
+    document.getElementById('preview').src = canvas.toDataURL();
+  }
+
+  function downloadCover() {
+    const canvas = document.getElementById('cover');
+    const link = document.createElement('a');
+    link.download = 'cover.png';
+    link.href = canvas.toDataURL();
+    link.click();
+  }
+
+  drawCover();
+</script> -->
 </body>
 
 </html>
